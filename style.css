@@ -13,13 +13,18 @@ body,html{
 }
 
 body{
-    background:hsl(185, 75%, 39%);
-    font-family: 'Roboto', sans-serif;
-    background-image: url(./images/bg-pattern-top.svg),url(./images/bg-pattern-bottom.svg);
-    background-position:left top,left,right bottom,right;
-    background-repeat: no-repeat;
-    /* #change the positio of image to left :corner-present */
-    background-position: -300px -480px;
+    background-color: #1AA0AC;
+  background-image: url(./images/bg-pattern-top.svg), 
+url(images/bg-pattern-bottom.svg);
+  background-position: right 45vw bottom 45vh, 45vw 45vh;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Nunito Sans', sans-serif;
+  overflow: hidden;
 }
 
 
@@ -39,7 +44,6 @@ body img .top-img{
     height: 60%;
     background: #fff;
     border-radius: 10px;
-    /* box-shadow: 1px 1px 1px 40px rgba(0,0,0,0.4); */
     box-shadow: 40px 40px 40px rgba(0,0,0,0.1);
     overflow:visible;
 }
